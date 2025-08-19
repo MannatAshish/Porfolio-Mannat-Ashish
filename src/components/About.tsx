@@ -52,24 +52,37 @@ const About = () => {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                My fascination with cybersecurity began at a young age, sparked by iconic movies like 
-                <span className="text-cyber-blue font-medium"> Tron </span> and the captivating world of 
-                <span className="text-cyber-blue font-medium"> Mr. Robot</span>. These stories piqued my 
-                interest in the intricate dynamics of networking and the art of ethical hacking.
+                My fascination with cybersecurity began not just in the cinematic worlds of 
+                <span className="text-cyber-blue font-medium">Tron</span> and 
+                <span className="text-cyber-blue font-medium">Mr. Robot</span>, but in the real-world 
+                implications they hinted at. This early curiosity was fueled by a growing awareness of 
+                modern threats like information warfare, as seen in sophisticated attacks such as the 
+                <span className="text-cyber-blue font-medium">Stuxnet worm</span>, which demonstrated 
+                how code could have a physical impact on the world.
               </p>
               
               <p>
-                As a B.Tech Computer Science Engineering student at 
-                <span className="text-cyber-blue font-medium"> NIIT University</span>, I have cultivated 
-                a strong academic foundation in core security disciplines, including cyber forensics and 
-                threat intelligence.
+                I was equally intrigued by the dual nature of cryptocurrency, a revolutionary technology 
+                that also became the backbone for untraceable transactions in ransom payments, which I 
+                explored in my own projects. This drive to understand the hidden logic governing our 
+                digital world led me to pursue a B.Tech in Computer Science Engineering at 
+                <span className="text-cyber-blue font-medium">NIIT University</span>.
               </p>
               
               <p>
-                While I am a new graduate and don't yet have professional work experience, I have dedicated 
-                myself to applying my theoretical knowledge through hands-on academic projects. I am excited 
-                to transition from theoretical understanding to a professional environment, where I can 
-                contribute my analytical skills and proactive approach to a security team.
+                I thrive on the process of deconstruction and analysis, and my passion for solving 
+                complex security puzzles often led me to spend focused hours in academic labs and on 
+                personal projects. My work on projects like the 
+                <span className="text-cyber-blue font-medium">Ransomware Simulation</span> and 
+                <span className="text-cyber-blue font-medium">Honeypot Deployment</span> has been 
+                instrumental in translating theoretical knowledge into tangible, real-world skills in 
+                network security, information security, and vulnerability assessment.
+              </p>
+              
+              <p>
+                I am excited to transition from this hands-on learning environment into a professional 
+                role, where I can contribute my analytical skills and a proactive approach to a security 
+                team committed to building a more secure digital future.
               </p>
             </div>
 
