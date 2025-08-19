@@ -20,13 +20,7 @@ const Projects = () => {
         "Automated the distribution process using Jenkins"
       ],
       finalProduct: "A fully functional ransomware simulation with a custom payload and a dashboard for monitoring, showcasing a comprehensive understanding of ransomware attack vectors and C&C (Command and Control) infrastructure.",
-      technologies: ["Python", "MERN Stack", "Jenkins", "Windows Security"],
-      codeSnippet: "# Kandeez Payload Encryption\nfor file in target_files:\n    encrypt_file(file, key)\n    send_to_c2(file_hash)",
-      metrics: {
-        "Files Encrypted": "500+",
-        "Bypass Success": "100%",
-        "C2 Uptime": "99.9%"
-      }
+      technologies: ["Python", "MERN Stack", "Jenkins", "Windows Security"]
     },
     {
       title: "Threat Detection through Honeypot Data",
@@ -42,13 +36,7 @@ const Projects = () => {
         "Utilized penetration testing tools like Nmap, Hydra, and Nikto to test vulnerabilities"
       ],
       finalProduct: "A robust system for gathering, analyzing, and representing threat intelligence, providing a clear demonstration of how to enhance the security of IoT devices through proactive monitoring.",
-      technologies: ["Python", "Docker", "ELK Stack", "Cowrie", "Nmap", "Hydra", "Nikto"],
-      codeSnippet: "# Honeypot Log Analysis\nfor attack in honeypot_logs:\n    analyze_threat(attack)\n    update_threat_intel(attack.source)",
-      metrics: {
-        "Attacks Detected": "1,200+",
-        "Threat Sources": "45 Countries",
-        "Uptime": "24/7"
-      }
+      technologies: ["Python", "Docker", "ELK Stack", "Cowrie", "Nmap", "Hydra", "Nikto"]
     }
   ];
 
@@ -133,22 +121,6 @@ const Projects = () => {
                   </CardContent>
                 </Card>
 
-                {/* Code Snippet */}
-                <div className="bg-card/50 rounded-lg p-4 border border-border code-line">
-                  <pre className="text-sm font-mono text-cyber-blue overflow-x-auto">
-                    {project.codeSnippet}
-                  </pre>
-                </div>
-
-                {/* Metrics */}
-                <div className="grid grid-cols-3 gap-4">
-                  {Object.entries(project.metrics).map(([key, value], metricIndex) => (
-                    <div key={metricIndex} className="text-center">
-                      <div className="text-2xl font-bold text-cyber-blue">{value}</div>
-                      <div className="text-xs text-muted-foreground">{key}</div>
-                    </div>
-                  ))}
-                </div>
 
                 {/* Technologies */}
                 <div className="flex flex-wrap gap-2">

@@ -168,20 +168,6 @@ const Education = () => {
           </div>
         </div>
 
-        {/* Timeline visualization */}
-        <div className="mt-16">
-          <div className="relative">
-            <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-cyber-blue/30"></div>
-            <div className="space-y-8">
-              {[2020, 2022, 2024, 2026].map((year, index) => (
-                <div key={year} className="relative flex items-center justify-center">
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-cyber-blue rounded-full border-4 border-background"></div>
-                  <div className="text-cyber-blue font-bold bg-background px-4">{year}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -121,6 +121,14 @@ const Contact = () => {
                       <Linkedin className="w-4 h-4 mr-2" />
                       Connect on LinkedIn
                     </Button>
+                    <Button 
+                      variant="outline"
+                      className="border-data-green text-data-green hover:bg-data-green hover:text-background"
+                      onClick={() => window.open('https://drive.google.com/file/d/1qSOfeFwPrVlydOlfnlyS6aqbHEF0aKYr/view?usp=drivesdk', '_blank')}
+                    >
+                      <Download className="w-4 h-4 mr-2" />
+                      Download CV
+                    </Button>
                   </div>
                 </div>
               </CardContent>
