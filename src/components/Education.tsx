@@ -34,21 +34,24 @@ const Education = () => {
       issuer: "Google",
       date: "December 25, 2024",
       icon: "🛡️",
-      status: "Active"
+      status: "Active",
+      driveUrl: "https://drive.google.com/file/d/1qAlwnMDhdMMPR3m4BvvKk-4rslqP87Ym/view?usp=drivesdk"
     },
     {
       title: "Cybersecurity Assessment",
       issuer: "LearnTube",
       date: "August 15, 2025",
       icon: "🔍",
-      status: "Active"
+      status: "Active",
+      driveUrl: "https://drive.google.com/file/d/1qC5ElfRjcMEjo0JOOlAjo8fac6h3ItFt/view?usp=drivesdk"
     },
     {
       title: "Python Beginner Level Novice",
       issuer: "TECHGIG",
       date: "August 15, 2025",
       icon: "🐍",
-      status: "Active"
+      status: "Active",
+      driveUrl: "https://drive.google.com/file/d/1qS3-fkLSnawIWtJwWZkp3ki0McQlu53s/view?usp=drivesdk"
     }
   ];
 
@@ -124,7 +127,11 @@ const Education = () => {
             
             <div className="space-y-4">
               {certifications.map((cert, index) => (
-                <Card key={index} className="cyber-border hover-glow transition-all duration-300">
+                <Card 
+                  key={index} 
+                  className="cyber-border hover-glow transition-all duration-300 cursor-pointer"
+                  onClick={() => window.open(cert.driveUrl, '_blank')}
+                >
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
                       <div className="text-2xl">{cert.icon}</div>

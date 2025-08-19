@@ -12,6 +12,7 @@ const Projects = () => {
       role: "Payload Developer and Penetration Tester",
       image: ransomwareImage,
       icon: AlertTriangle,
+      githubUrl: "https://github.com/mannat-ashish-04/Kandeez",
       challenge: "To simulate the real-world distribution and functionality of a ransomware attack within a Windows 10 environment. The goal was to understand the lifecycle of a ransomware infection, from payload execution to data encryption and exfiltration.",
       process: [
         "Developed the Kandeez.exe ransomware payload in Python to encrypt text, photos, and videos",
@@ -27,6 +28,7 @@ const Projects = () => {
       role: "Security Analyst and Penetration Tester",
       image: honeypotImage,
       icon: Shield,
+      githubUrl: "https://github.com/mannat-ashish-04/Honeypots",
       challenge: "To gather real-time threat intelligence by deploying an integrated honeypot environment and simulating common attacks. This project aimed to demonstrate how threat intelligence is gathered and used to improve the security of IoT-based IP cameras.",
       process: [
         "Deployed a custom honeypot in a simulated NVR environment using Docker",
@@ -64,7 +66,10 @@ const Projects = () => {
             >
               {/* Project Image */}
               <div className="lg:w-1/2">
-                <div className="relative group">
+                <div 
+                  className="relative group cursor-pointer"
+                  onClick={() => window.open(project.githubUrl, '_blank')}
+                >
                   <div className="absolute inset-0 bg-cyber-blue/20 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <img 
                     src={project.image} 
@@ -74,6 +79,11 @@ const Projects = () => {
                   <div className="absolute top-4 left-4">
                     <div className="p-2 bg-cyber-blue/20 backdrop-blur-sm rounded-lg">
                       <project.icon className="w-6 h-6 text-cyber-blue" />
+                    </div>
+                  </div>
+                  <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="p-2 bg-cyber-blue/20 backdrop-blur-sm rounded-lg">
+                      <Github className="w-5 h-5 text-cyber-blue" />
                     </div>
                   </div>
                 </div>

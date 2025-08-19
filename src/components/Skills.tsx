@@ -23,6 +23,12 @@ const Skills = () => {
       description: "Versatile programming skills for automation and security tool development"
     },
     {
+      title: "Version Control",
+      icon: Code,
+      skills: ["GitHub", "Git"],
+      description: "Code versioning and collaborative development platforms"
+    },
+    {
       title: "Security Tools & Platforms",
       icon: Shield,
       skills: ["Metasploit", "Burp Suite", "OWASP ZAP", "Nessus", "Aircrack-ng"],
@@ -83,27 +89,6 @@ const Skills = () => {
           ))}
         </div>
 
-        {/* Animated code snippets */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="code-line p-6 bg-card/50 rounded-lg border border-border">
-            <div className="font-mono text-sm text-cyber-blue">
-              <span className="text-muted-foreground"># </span>
-              nmap -sS -O target.com
-            </div>
-          </div>
-          <div className="code-line p-6 bg-card/50 rounded-lg border border-border" style={{ animationDelay: '0.5s' }}>
-            <div className="font-mono text-sm text-cyber-blue">
-              <span className="text-muted-foreground">$ </span>
-              msfconsole -q
-            </div>
-          </div>
-          <div className="code-line p-6 bg-card/50 rounded-lg border border-border" style={{ animationDelay: '1s' }}>
-                <div className="font-mono text-sm text-cyber-blue">
-                  <span className="text-muted-foreground">{'>>> '}</span>
-                  import scapy
-                </div>
-          </div>
-        </div>
       </div>
     </section>
   );
