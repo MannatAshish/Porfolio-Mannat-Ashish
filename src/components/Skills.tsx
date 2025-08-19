@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Monitor, Network, Code, Shield } from 'lucide-react';
+import { Monitor, Network, Code, Shield, Settings, Briefcase } from 'lucide-react';
 
 const Skills = () => {
   const skillCategories = [
@@ -33,6 +33,18 @@ const Skills = () => {
       icon: Shield,
       skills: ["Metasploit", "Burp Suite", "OWASP ZAP", "Nessus", "Aircrack-ng"],
       description: "Hands-on experience with industry-standard penetration testing tools"
+    },
+    {
+      title: "Task Automation",
+      icon: Settings,
+      skills: ["Jenkins"],
+      description: "Continuous integration and deployment automation for security projects"
+    },
+    {
+      title: "Project Management",
+      icon: Briefcase,
+      skills: ["Jira", "Asana"],
+      description: "Project management and workplace management for collaborative development"
     }
   ];
 

@@ -95,9 +95,20 @@ const Projects = () => {
                   <Badge variant="outline" className="border-cyber-blue text-cyber-blue mb-3">
                     {project.role}
                   </Badge>
-                  <h3 className="text-2xl md:text-3xl font-heading font-bold text-foreground mb-4">
-                    {project.title}
-                  </h3>
+                  <div className="flex items-center gap-4 mb-4">
+                    <h3 className="text-2xl md:text-3xl font-heading font-bold text-foreground">
+                      {project.title}
+                    </h3>
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => window.open(project.githubUrl, '_blank')}
+                      className="border-cyber-blue text-cyber-blue hover:bg-cyber-blue hover:text-white transition-colors duration-300"
+                    >
+                      <Github className="w-4 h-4 mr-2" />
+                      View Project
+                    </Button>
+                  </div>
                 </div>
 
                 <Card className="cyber-border">

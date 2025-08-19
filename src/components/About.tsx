@@ -52,11 +52,11 @@ const About = () => {
             
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                My fascination with cybersecurity began not just in the cinematic worlds of 
-                <span className="text-cyber-blue font-medium">Tron</span> and 
+                My fascination with cybersecurity began not just in the cinematic worlds of{' '}
+                <span className="text-cyber-blue font-medium">Tron</span> and{' '}
                 <span className="text-cyber-blue font-medium">Mr. Robot</span>, but in the real-world 
                 implications they hinted at. This early curiosity was fueled by a growing awareness of 
-                modern threats like information warfare, as seen in sophisticated attacks such as the 
+                modern threats like information warfare, as seen in sophisticated attacks such as the{' '}
                 <span className="text-cyber-blue font-medium">Stuxnet worm</span>, which demonstrated 
                 how code could have a physical impact on the world.
               </p>
@@ -65,15 +65,16 @@ const About = () => {
                 I was equally intrigued by the dual nature of cryptocurrency, a revolutionary technology 
                 that also became the backbone for untraceable transactions in ransom payments, which I 
                 explored in my own projects. This drive to understand the hidden logic governing our 
-                digital world led me to pursue a B.Tech in Computer Science Engineering at 
+                digital world led me to pursue a B.Tech in Computer Science Engineering at{' '}
                 <span className="text-cyber-blue font-medium">NIIT University</span>.
               </p>
               
               <p>
                 I thrive on the process of deconstruction and analysis, and my passion for solving 
                 complex security puzzles often led me to spend focused hours in academic labs and on 
-                personal projects. My work on projects like the 
-                <span className="text-cyber-blue font-medium">Ransomware Simulation</span> and 
+                personal projects. I have cultivated a strong academic foundation in core security 
+                disciplines, including cyber forensics and threat intelligence. My work on projects like the{' '}
+                <span className="text-cyber-blue font-medium">Ransomware Simulation</span> and{' '}
                 <span className="text-cyber-blue font-medium">Honeypot Deployment</span> has been 
                 instrumental in translating theoretical knowledge into tangible, real-world skills in 
                 network security, information security, and vulnerability assessment.
